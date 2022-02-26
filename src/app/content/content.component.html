@@ -1,0 +1,7 @@
+<section class="mx-5">
+    <h1 class="flex justify-center text-xl text-blue-400 font-bold underline mb-5">Services</h1>
+
+    <div class="grid lg:grid-cols-4 grid-cols-2 gap-2">
+      <app-services *ngFor="let service of services" [service]="service"></app-services>
+    </div>
+  </section>
